@@ -1,0 +1,403 @@
+UKAZKOVY VSTUP:
+1)
+
+6 6
+8
+3 2 2 h cervene
+1 1 2 h oranzove
+2 1 3 v zlte
+5 1 2 v fialove
+2 4 3 v zelene
+6 3 3 h svetlomodre
+5 5 2 h sive
+1 6 3 v tmavomodre
+
+
+
+OSTATNE VSTUPY:
+2)
+
+6 6
+10
+3 1 2 h cervene
+1 1 2 v zlte
+1 3 2 h oranzove
+2 2 3 h zelene
+1 5 3 v modre
+3 6 3 v fialove
+4 2 2 v ruzove
+4 3 2 h hnede
+5 3 2 v biele
+5 4 2 h cierne
+
+
+3)
+
+6 6
+10
+3 1 2 h cervene
+1 3 3 v zlte
+2 4 3 v oranzove
+1 5 2 h zelene
+2 5 2 h modre
+4 1 2 v fialove
+4 2 2 h ruzove
+4 5 2 h hnede
+6 4 2 h biele
+5 6 2 v cierne
+
+
+4)
+
+6 6
+10
+3 2 2 h cervene
+1 1 3 v zlte
+4 1 2 h oranzove
+5 1 2 h zelene
+1 3 2 v modre
+4 3 2 h fialove
+5 3 2 h ruzove
+1 4 3 h hnede
+2 4 2 v biele
+3 6 3 v cierne
+
+
+5)
+
+6 6
+13
+3 1 2 h cervene
+1 1 2 v zlte
+4 1 2 h oranzove
+2 2 3 h zelene
+1 3 2 h modre
+1 5 2 v fialove
+1 6 2 v ruzove
+3 3 2 v hnede
+3 4 2 v biele
+3 5 2 v cierne
+5 4 2 v sive
+5 5 2 h bordove
+6 5 2 h bezove
+
+
+6)
+
+6 6
+11
+3 1 2 h cervene
+1 1 2 h zlte
+2 1 3 h oranzove
+1 4 3 v zelene
+1 5 2 v modre
+4 1 2 v fialove
+6 1 2 h ruzove
+4 3 2 h hnede
+5 3 2 v biele
+5 4 2 h cierne
+3 5 2 v sive
+
+
+7)
+
+6 6
+12
+3 1 2 h cervene
+4 1 2 h zlte
+5 1 2 v oranzove
+5 2 3 h zelene
+6 2 3 h modre
+2 3 2 v fialove
+1 4 2 v ruzove
+3 4 2 v hnede
+2 5 2 h biele
+3 5 2 v cierne
+3 6 2 v sive
+5 5 2 v bordove
+
+
+8)
+
+6 6
+12
+3 1 2 h cervene
+1 1 2 v zlte
+1 3 2 h oranzove
+1 5 2 h zelene
+2 3 2 v modre
+2 4 3 h fialove
+4 2 2 h ruzove
+5 1 3 h hnede
+4 4 2 v biele
+3 5 3 v cierne
+3 6 2 v sive
+5 6 2 v bordove
+
+
+9)
+
+6 6
+11
+3 1 2 h cervene
+1 2 2 v zlte
+1 3 3 v oranzove
+1 4 2 v zelene
+1 5 2 h modre
+2 5 2 h fialove
+4 1 2 v ruzove
+4 2 3 h hnede
+6 1 2 h biele
+6 3 2 h cierne
+4 6 3 v sive
+
+
+10)
+
+6 6
+8
+3 1 2 h cervene
+1 1 3 h zlte
+2 3 3 v oranzove
+4 1 2 v zelene
+6 1 3 h modre
+1 6 3 v fialove
+4 5 2 h ruzove
+5 5 2 v hnede
+
+
+11)
+
+6 6
+8
+3 1 2 h cervene
+4 1 2 h zlte
+2 3 2 v oranzove
+4 3 2 v zelene
+5 2 2 v modre
+6 3 2 h fialove
+2 4 3 v ruzove
+2 5 3 v hnede
+
+
+12)
+
+6 6
+8
+3 1 2 h cervene
+1 1 2 v zlte
+1 2 2 h oranzove
+1 4 2 h zelene
+2 3 2 v modre
+5 1 3 h fialove
+3 4 3 v ruzove
+3 5 3 v hnede
+
+
+13)
+
+6 6
+14
+3 4 2 h cervene
+1 1 2 v zlte
+3 1 2 v oranzove
+1 2 3 v zelene
+6 1 2 h modre
+1 3 2 h fialove
+2 3 2 h ruzove
+3 3 2 v hnede
+5 3 2 v biele
+1 5 2 h cierne
+2 6 3 v sive
+4 4 2 h bordove
+5 4 2 v bezove
+5 5 2 h belase
+
+
+14)
+
+6 6
+10
+3 1 2 h cervene
+1 1 2 v zlte
+1 2 3 h oranzove
+2 2 3 h zelene
+1 6 3 v modre
+4 2 2 h fialove
+6 1 2 h ruzove
+5 3 2 v hnede
+4 4 3 v biele
+5 5 2 h cierne
+
+
+15)
+
+6 6
+11
+3 4 2 h cervene
+1 1 2 v zlte
+1 2 2 h oranzove
+2 2 2 v zelene
+2 3 2 v modre
+1 4 2 v fialove
+1 6 3 v ruzove
+4 3 2 v hnede
+4 4 2 v biele
+5 5 2 h cierne
+6 4 3 h sive
+
+
+
+VELKE PLOCHY 10x10:
+
+16)
+
+10 10
+11
+6 1 2 h cervene
+1 1 5 v zlte
+1 2 9 h oranzove
+4 2 3 h zelene
+2 6 3 v modre
+5 3 3 v fialove
+3 8 4 v ruzove
+3 9 2 h hnede
+4 10 5 v biele
+6 5 4 v cierne
+10 5 5 h sive
+
+
+17)
+
+10 10
+12
+5 8 2 h cervene
+1 10 5 v zlte
+6 2 9 h oranzove
+6 1 5 v zelene
+1 1 2 h modre
+2 1 2 h fialove
+3 1 2 h ruzove
+4 1 2 h hnede
+1 3 2 h biele
+2 3 2 h cierne
+3 3 2 h sive
+4 3 2 h bordove
+
+
+18)
+
+10 10
+12
+5 1 2 h cervene
+1 2 4 h zlte
+1 8 3 h oranzove
+3 3 3 v zelene
+9 1 2 v modre
+10 2 4 h fialove
+7 3 2 h ruzove
+3 5 3 h hnede
+4 5 2 v biele
+4 7 4 v cierne
+3 10 5 v sive
+7 8 4 v bordove
+
+
+19)
+
+10 10
+12
+8 1 3 h cervene
+1 2 4 h zlte
+1 7 2 v oranzove
+1 9 3 v zelene
+3 1 3 h modre
+4 2 2 v fialove
+5 5 6 h ruzove
+6 4 5 v hnede
+6 10 5 v biele
+7 5 2 v cierne
+7 7 2 v sive
+6 8 2 v bordove
+
+VELKE PLOCHY 8x8:
+
+
+20)
+
+8 8
+12
+3 1 2 h cervene
+1 4 2 h zlte
+1 7 3 v oranzove
+1 8 3 v zelene
+2 5 2 v modre
+3 3 3 v fialove
+5 1 2 v ruzove
+6 5 2 v hnede
+8 4 2 h biele
+6 6 2 h cierne
+7 6 3 h sive
+8 6 3 h bordove
+
+
+21)
+
+8 8
+15
+2 1 2 h cervene
+3 1 4 v zlte
+1 3 2 v oranzove
+3 2 3 h zelene
+4 2 2 h modre
+8 1 2 h fialove
+2 5 2 v ruzove
+5 5 2 v hnede
+7 4 3 h biele
+8 5 2 h cierne
+3 6 4 v sive
+1 7 3 v bordove
+2 8 2 v bezove
+5 7 2 h belase
+7 8 2 v tyrkisove
+
+
+22)
+
+8 8
+8
+7 1 2 h cervene
+1 2 5 h zlte
+2 3 3 v oranzove
+5 3 3 v zelene
+5 5 2 h modre
+6 5 3 v fialove
+8 6 2 h ruzove
+1 7 6 v hnede
+
+
+
+NEVALIDNÉ VSTUPY:
+
+12 12
+1
+1 1 2 h cervene
+
+6 6
+1
+5 6 2 h cervene
+
+6 6
+2
+1 1 3 h cervene
+1 3 2 v modre
+
+
+
+VSTUP BEZ RIESENIA:
+
+6 6
+3
+3 1 2 h cervene
+1 6 3 v modre
+5 6 2 v zelene

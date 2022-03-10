@@ -1,0 +1,10 @@
+6 6
+8
+3 2 2 h cervene
+1 1 2 h oranzove
+2 1 3 v zlte
+5 1 2 v fialove
+2 4 3 v zelene
+6 3 3 h svetlomodre
+5 5 2 h sive
+1 6 3 v tmavomodre
