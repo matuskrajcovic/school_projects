@@ -1,0 +1,78 @@
+
+/*global settings ofr font, colors and margins*/
+html {
+	font-size: 12pt;
+	font-family: "Times New Roman";
+	background-color: white;
+	color: black;
+	margin: 0;
+}
+
+/*remove default margin and padding*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*custom page margin*/
+@page {
+	margin: 1.5cm;
+	size: 210mm 297mm;
+}
+
+
+/*headings*/
+h3 {
+	margin-top: 1cm;
+}
+
+
+/*links styles and printing urls after them*/
+a {
+	text-decoration: none;
+	color: inherit;
+	page-break-inside: avoid;
+}
+
+a[href^=http]::after {
+	content: " (" attr(href) ")";
+}
+
+
+/*hide buttons*/
+button {
+	display: none;
+}
+
+
+/*tables should not be broke inside with a page break*/
+/*also border and padding settings*/
+table {
+	page-break-inside: avoid;
+	border-collapse: collapse;
+}
+
+table.wide {
+	width: 100%;
+	page-break-after: always;
+}
+
+table, th, td {
+	border: 0.5mm solid black;
+}
+
+table td {
+	padding: 2mm;
+}
+
+.artist, .lyrics {
+	page-break-inside: avoid;
+}
+
+
+/*only print elements settings*/
+.print{
+	text-align: center;
+	padding: 1cm;
+}
+

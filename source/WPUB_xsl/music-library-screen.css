@@ -1,0 +1,231 @@
+/*root variables (colors used)*/
+:root {
+    --main-background-color: rgb(230, 230, 230);
+	--main-color: rgb(32, 32, 34);
+	--main-highlight-color: rgb(88, 59, 182);
+	--main-border-color: rgb(100, 100, 100);
+	--second-background-color: rgb(221, 220, 220);
+}
+
+/*different colors for dark mode*/
+.dark-mode {
+	--main-background-color: rgb(32, 33, 36);
+	--main-color: rgb(221, 221, 221);
+	--main-highlight-color: rgb(200, 185, 255);
+	--main-border-color: rgb(78, 78, 78);
+	--second-background-color: rgb(43, 43, 43);
+}
+
+/*global settings of font, colors and sizings*/
+html {
+	font-size: 16px;
+	font-family: "Segoe UI";
+	line-height: 1.8;
+	background: var(--main-background-color);
+	color: var(--main-color);
+	margin: 0;
+	padding: 0 5%;
+}
+
+/*disable default padding and margin*/
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box;
+}
+
+
+/*custom link colors and behavior*/
+a {
+	color: var(--main-highlight-color);
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+a:hover {
+	color: var(--main-background-color);
+	background-color: var(--main-color);
+}
+
+
+/*custom buttons*/
+button {
+	color: var(--main-color);
+	background-color: var(--second-background-color);
+	border: 1px solid var(--main-border-color);
+	border-radius: 10px;
+	font-weight: 700;
+	padding: 10px;
+	outline: none;
+}
+
+button.toggle{
+	float:right;
+}
+
+
+/*clr for tidying up after float columns*/
+.clr {
+	clear: left;
+}
+
+/*generated custom style to highlight stuff*/
+.generated {
+	font-style: italic;
+}
+
+/*do not display stuff for printing*/
+.print, .hidden{
+	display: none;
+}
+
+
+/*custom heading sizes and paddings*/
+h1 {
+	font-size: 2rem;
+	padding: 35px 0 25px 0;
+	text-align: center;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 1.7rem;
+	padding: 30px 0 20px 0;
+}
+
+h3 {
+	font-size: 1.4rem;
+	padding: 25px 0 15px 0;
+}
+
+h4 {
+	font-size: 1.15rem;
+	padding: 20px 0 10px 0;
+}
+
+
+/*settings for all tables (colors, borders, and alignment)*/
+table,
+table tr{
+	border: 1px solid var(--main-border-color);
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table th {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: var(--second-background-color);
+}
+
+table tr:nth-child(even) {
+	background-color: var(--second-background-color);
+}
+
+
+/*settings for small member tables*/
+table.members {
+	width: auto;
+}
+
+table.members td, table.members th {
+	padding: 4px 30px 4px 5px;
+}
+
+
+/*settings for wide tables with songs and albums*/
+table.wide {
+	width: 100%;
+}
+
+.table_wrapper {
+	overflow-x:auto;
+}
+
+
+/*settings for artist and lyrics elements*/
+.artist, .lyric {
+	background-color: var(--second-background-color);
+	margin-bottom: 30px;
+	padding: 10px 30px 20px 30px;
+	border-radius: 20px;
+}
+
+
+/*biography has maximum width for better readability*/
+.biography {
+	max-width: 700px;
+}
+
+
+
+/*declarations for bigger screens*/
+@media (min-width: 769px) {
+
+	/*padding and wrapping settings for wide tables*/
+	table.wide {
+		white-space: nowrap;
+	}
+	table.wide th,
+	table.wide td {
+		padding: 4px 30px 4px 5px;
+	}
+	table.wide th {
+		text-align: left;
+	}
+
+	/*settings for main two divs with artists and lyrics floated beside each other*/
+	#artists {
+		float: left;
+		width: 70%;
+		padding-right: 5%;
+	}
+	#lyrics {
+		float: left;
+		width: 30%;
+	}
+
+}
+
+/*declarations for smaller screens*/
+@media (max-width: 768px) {
+
+	/*settings for wide tables on small screens*/
+	/*each table row becomes a block with each table cell as a row (also block elements)*/
+	/*in each cell we print label attribute before the actual content of the cell, on the left*/
+	/*also, additional padding, sizing, font-style and aligning settings*/
+	table.wide {
+		border: none;
+	}
+	table.wide thead {
+		display: none;
+	}
+	table.wide tr {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		border: 2px solid var(--main-border-color);
+	}
+	table.wide td {
+		display: block;
+		text-align: right;
+		border-bottom: 1px solid var(--main-border-color);
+	}
+	table.wide th,
+	table.wide td {
+		padding: 2px 10px 2px 10px;
+	}
+	/*this one declaration was not mine*/
+	/*https://codepen.io/AllThingsSmitty/pen/MyqmdM*/
+	/*together with the idea of giving table cell elements their attribute label to use in the stylesheet*/
+	table.wide td::before {
+		content: attr(label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	table.wide td:last-child {
+		border-bottom: none;
+	}
+}

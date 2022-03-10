@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE music-library SYSTEM "music-library.dtd">-->
+<!DOCTYPE music-library [<!ENTITY source "Source: wikipedia.org">]>
+
+<!-- Music library = artists, albums and songs. -->
+<music-library language="EN">
+
+	<!--List of artists. -->
+	<artists>
+		<artist id="artist1">
+			<name>ABBA</name>
+			<origin>Stockholm, Sweden</origin>
+			<members>
+				<member>
+					<name>Agnetha Fältskog</name>
+					<role>vocals</role>
+				</member>
+				<member>
+					<name>Björn Ulvaeus</name>
+					<role>guitar</role>
+				</member>
+				<member>
+					<name>Benny Andersson</name>
+					<role>piano</role>
+				</member>
+				<member>
+					<name>Anni-Frid Lyngstad</name>
+					<role>vocals</role>
+				</member>
+			</members>
+		</artist>
+		<artist id="artist2">
+			<name>Lady Gaga</name>
+			<origin>New York, USA</origin>
+			<biography>
+				<p>
+					Stefani Joanne Angelina Germanotta, known professionally as Lady Gaga, is an American singer, songwriter, and actress. She is known for her image reinventions and musical versatility.
+				</p>
+				<p>
+					Gaga began performing as a teenager, singing at open mic nights and acting in school plays. She studied at Collaborative Arts Project 21, through New York University's Tisch School of the Arts, before dropping out to pursue a career in music.
+				</p>
+				<p>
+					After Def Jam Recordings canceled her contract, she worked as a songwriter for Sony/ATV Music Publishing, where she signed a joint deal with Interscope Records and Akon's label, KonLive Distribution, in 2007. Gaga rose to prominence the following year with her debut studio album, The Fame, and its chart-topping singles "Just Dance" and "Poker Face". The album was later reissued to include the EP, The Fame Monster (2009), which yielded the successful singles "Bad Romance", "Telephone", and "Alejandro".
+				</p>
+			</biography>
+		</artist>
+		<artist id="artist3">
+			<name>Pet Shop Boys</name>
+			<origin>London, United Kingdom</origin>
+			<members>
+				<member>
+					<name>Neil Tennant</name>
+					<role>vocals</role>
+				</member>
+				<member>
+					<name>Chris Lowe</name>
+					<role>keyboard</role>
+				</member>
+			</members>
+			<biography>
+				<p>
+					Pet Shop Boys are an English synth-pop duo, formed in London in 1981 and consisting of Neil Tennant and Chris Lowe. Pet Shop Boys have sold more than 100 million records worldwide, and were listed as the most successful duo in UK music history in the 1999 edition of The Guinness Book of Records. Three-time Brit Award winners and six-time Grammy nominees, since 1984 they have achieved 42 Top 30 singles, 22 of them Top 10 hits in the UK Singles Chart, including four UK number ones: "West End Girls" (also number one on the US Billboard Hot 100), "It's a Sin", a synthpop version of "Always on My Mind", and "Heart". Other hit songs include a cover of "Go West", and their own "Opportunities (Let's Make Lots of Money)", and "What Have I Done to Deserve This?" in a duet with Dusty Springfield. With five US top ten singles in the 1980s, they are associated with the Second British Invasion.
+				</p>
+			</biography>
+		</artist>
+		<artist id="artist4">
+			<name>Coldplay</name>
+			<origin>London, United Kingdom</origin>
+			<members>
+				<member>
+					<name>Chris Martin</name>
+					<role>vocals</role>
+				</member>
+				<member>
+					<name>Guy Berryman</name>
+					<role>bass</role>
+				</member>
+				<member>
+					<name>Will Champion</name>
+					<role>drums</role>
+				</member>
+				<member>
+					<name>Phil Harvey</name>
+					<role>creative director</role>
+				</member>
+				<member>
+					<name>Jonny Buckland</name>
+					<role>guitar</role>
+				</member>
+			</members>
+			<biography>
+				<p>
+					Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay. Their creative director and former manager Phil Harvey is the fifth member of the band.
+				</p>
+			</biography>
+		</artist>
+		<artist id="artist5">
+			<name>Rick Astley</name>
+			<origin>Lancashire, England</origin>
+			<biography>
+				<p>
+					Richard Paul Astley (born 6 February 1966) is an English singer, songwriter and radio personality. He rose to fame through his association with the production trio Stock Aitken Waterman; his 1987 recording of their song "Never Gonna Give You Up" was a number 1 hit single in 25 countries, winning the 1988 Brit Award for Best British Single. His 1988 single "Together Forever" became his second single to top the US Billboard Hot 100, and was one of his eight songs to reach the top ten on the UK Singles Chart. By the time of his retirement in 1993, Astley had sold approximately 40 million records worldwide.
+				</p>
+			</biography>
+		</artist>
+		<artist id="artist6">
+			<name>Miroslav Žbirka</name>
+			<origin>Bratislava, Czechoslovakia</origin>
+			<biography>
+				<p>
+					Miroslav Žbirka (born 21 October 1952) is a Slovak pop music singer and songwriter. He performs in Slovak, Czech, and English (he has a Slovak father and an English mother).
+				</p>
+				<p>
+					In the late 1970s, Žbirka co-founded two Czechoslovak pop music bands Modus and Limit. He currently lives and works in Prague.
+				</p>
+				<p>
+					In 1982, he received the annual Zlatý slavík award for the best male singer in Czechoslovakia. After the separation of Czechoslovakia, he repeated this achievement in the Slovak annual Slávik Awards, coming number one in the annual end of year charts in 2002, 2004 and 2005.
+				</p>
+				<p>
+					He had some performances with Jon Anderson in 2012. Asteroid 5895 Žbirka, discovered by Czech astronomer Zdeňka Vávrová in 1982, was named in his honor. The official naming citation was published by the Minor Planet Center on 27 August 2019.
+				</p>
+			</biography>
+		</artist>
+		<artist id="artist7">
+			<name>Twenty One Pilots</name>
+			<origin>Columbus, Ohio, USA</origin>
+			<members>
+				<member>
+					<name>Tyler Joseph</name>
+					<role>vocals</role>
+				</member>
+				<member>
+					<name>Josh Dun</name>
+					<role>drums</role>
+				</member>
+			</members>
+			<biography>
+				<p>
+					Twenty One Pilots is an American musical duo from Columbus, Ohio. The band was formed in 2009 by lead vocalist Tyler Joseph along with Nick Thomas and Chris Salih, both of whom left in 2011. Since their departure, the line-up has consisted of Joseph and drummer Josh Dun. The duo is best known for the singles "Stressed Out", "Ride", and "Heathens". The group received a Grammy Award for Best Pop Duo/Group Performance at the 59th Annual Grammy Awards for "Stressed Out".
+				</p>
+			</biography>
+		</artist>
+	</artists>
+
+	<!--List of albums. -->
+	<albums>
+		<album id="album1" artist-ref="artist1">
+			<name>Waterloo</name>
+			<year>1974</year>
+			<tracks>11</tracks>
+			<production>
+				<labels>
+					<label>Polar Music</label>
+					<label>Other Label</label>
+				</labels>
+			</production>
+			<length>38:10</length>
+			<rating stars="5"/>
+		</album>
+		<album id="album2" artist-ref="artist1">
+			<name>The Album</name>
+			<year>1977</year>
+			<tracks>10</tracks>
+			<production>
+				<labels>
+					<label>Polar Music</label>
+				</labels>
+			</production>
+			<rating stars="4"/>
+		</album>
+		<album id="album3" artist-ref="artist2">
+			<name>The Fame</name>
+			<year>2008</year>
+			<tracks>12</tracks>
+			<rating stars="5"/>
+		</album>
+		<album id="album4" artist-ref="artist3">
+			<name>Actually</name>
+			<year>1987</year>
+			<tracks>12</tracks>
+			<rating stars="5"/>
+		</album>
+		<album id="album5" artist-ref="artist4">
+			<name>Viva la Vida or Death and All His Friends</name>
+			<year>2008</year>
+			<tracks>10</tracks>
+			<production>
+				<labels>
+					<label>Parlophone</label>
+				</labels>
+			</production>
+			<length>45:49</length>
+			<rating stars="4"/>
+		</album>
+		<album id="album6" artist-ref="artist7">
+			<name>Vessel</name>
+			<year>2013</year>
+			<tracks>12</tracks>
+			<production>
+				<studios>
+					<studio>Rocket Carousel Studio, Los Angeles, California</studio>
+				</studios>
+				<labels>
+					<label>Fueled by Ramen</label>
+				</labels>
+				<producer>Greg Wells</producer>
+			</production>
+			<length>47:44</length>
+			<rating stars="5"/>
+		</album>
+	</albums>
+
+	<!--List of songs. -->
+	<songs>
+		<song id="song1" artist-ref="artist1" album-ref="album1">
+			<name>Waterloo</name>
+			<year>1974</year>
+			<genre>pop</genre>
+			<album-track>1</album-track>
+			<track-info>
+				<length>00:02:43</length>
+				<kodek>MPEG</kodek>
+				<bitrate>120</bitrate>
+				<frequency>44100</frequency>
+				<last-modified>4.8.2020 16:34:45</last-modified>
+			</track-info>
+			<rating stars="4"/>
+		</song>
+		<song id="song2" artist-ref="artist1" album-ref="album2">
+			<name>Take a chance on me</name>
+			<year>1977</year>
+			<genre>pop</genre>
+			<album-track>2</album-track>
+			<track-info>
+				<length>00:03:43</length>
+				<kodek>MPEG</kodek>
+				<bitrate>134</bitrate>
+				<frequency>44800</frequency>
+				<last-modified>3.9.2019 16:33:45</last-modified>
+			</track-info>
+			<rating stars="5"/>
+			<lyrics>
+				<![CDATA[ 
+				If you change your mind<br/>
+				I'm the first in line<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				If you need me, let me know<br/>
+				Gonna be around<br/>
+				If you've got no place to go<br/>
+				When you're feeling down<br/>
+				If you're all alone<br/>
+				When the pretty birds have flown<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				Gonna do my very best<br/>
+				And it ain't no lie<br/>
+				If you put me to the test<br/>
+				If you let me try<br/>
+				Take a chance on me<br/>
+				That's all I ask of you, honey<br/>
+				Take a chance on me<br/>
+				We can go dancing (oh)<br/>
+				We can go walking (yeah)<br/>
+				As long as we're together (long as we're together)<br/>
+				Listen to some music (oh)<br/>
+				Maybe just talking (yeah)<br/>
+				Get to know you better (get to know you better)<br/>
+				'Cause you know I've got<br/>
+				So much that I wanna do<br/>
+				When I dream I'm alone with you, it's magic<br/>
+				You want me to leave it there<br/>
+				Afraid of a love affair, but I think you know<br/>
+				That I can't let go<br/>
+				If you change your mind<br/>
+				I'm the first in line<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				If you need me, let me know<br/>
+				Gonna be around<br/>
+				If you've got no place to go<br/>
+				When you're feeling down<br/>
+				If you're all alone<br/>
+				When the pretty birds have flown<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				Gonna do my very best<br/>
+				And it ain't no lie<br/>
+				If you put me to the test<br/>
+				If you let me try<br/>
+				Take a chance on me<br/>
+				Come on, give me a break, will you?<br/>
+				Take a chance on me<br/>
+				Oh, you can take your time, baby (oh)<br/>
+				I'm in no hurry (yeah)<br/>
+				Know I'm gonna get you (know I'm gonna get you)<br/>
+				You don't wanna hurt me (oh)<br/>
+				Baby, don't worry (yeah)<br/>
+				I ain't gonna let you (I ain't gonna let you)<br/>
+				Let me tell you now<br/>
+				My love is strong enough<br/>
+				To last when things are rough, it's magic<br/>
+				You say that I waste my time<br/>
+				But I can't get you off my mind, no, I can't let go<br/>
+				'Cause I love you so<br/>
+				If you change your mind<br/>
+				I'm the first in line<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				If you need me, let me know<br/>
+				Gonna be around<br/>
+				If you've got no place to go<br/>
+				If you're feeling down<br/>
+				If you're all alone<br/>
+				When the pretty birds have flown<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				Gonna do my very best<br/>
+				Baby, can't you see?<br/>
+				Gotta put me to the test<br/>
+				Take a chance on me<br/>
+				Take a chance, take a chance, take a chance on me<br/>
+				Ba-ba-ba, ba, ba<br/>
+				Ba-ba-ba, ba, ba<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				Gonna do my very best<br/>
+				Baby, can't you see<br/>
+				Gotta put me to the test<br/>
+				Take a chance on me<br/>
+				Take a chance, take a chance, take a chance on me<br/>
+				Ba-ba-ba, ba, ba<br/>
+				Ba-ba-ba, ba, ba, ba-ba<br/>
+				Honey, I'm still free<br/>
+				Take a chance on me<br/>
+				Gonna do my very best<br/>
+				Baby, can't you see<br/>
+				Gotta put me to the test<br/>
+				Take a chance on me<br/>
+				]]>
+			</lyrics>
+		</song>
+		<song id="song3" artist-ref="artist2" album-ref="album3">
+			<name>Just Dance</name>
+			<year>2008</year>
+			<genre>pop</genre>
+			<album-track>1</album-track>
+			<track-info>
+				<length>00:04:02</length>
+				<kodek>MPEG</kodek>
+				<bitrate>135</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>28.12.2020 17:19:11</last-modified>
+			</track-info>
+			<rating stars="5"/>
+			<note>&source;</note>
+		</song>
+		<song id="song4" artist-ref="artist2" album-ref="album3">
+			<name>LoveGame</name>
+			<year>2008</year>
+			<genre>pop</genre>
+			<album-track>2</album-track>
+			<track-info>
+				<length>00:03:55</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>28.12.2020 17:13:61</last-modified>
+			</track-info>
+			<rating stars="5"/>
+			<note>&source;</note>
+		</song>
+		<song id="song5" artist-ref="artist2" album-ref="album3">
+			<name>Paparazzi</name>
+			<year>2008</year>
+			<genre>pop</genre>
+			<album-track>3</album-track>
+			<track-info>
+				<length>00:03:50</length>
+				<kodek>MPEG</kodek>
+				<bitrate>135</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>24.12.2020 14:15:51</last-modified>
+			</track-info>
+			<rating stars="5"/>
+			<note>&source;</note>
+		</song>
+		<song id="song6" artist-ref="artist2" album-ref="album3">
+			<name>Poker Face</name>
+			<year>2008</year>
+			<genre>pop</genre>
+			<album-track>6</album-track>
+			<track-info>
+				<length>00:04:21</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>23.12.2020 22:14:41</last-modified>
+			</track-info>
+			<rating stars="5"/>
+			<note>&source;</note>
+		</song>
+		<song id="song7" artist-ref="artist3" album-ref="album4">
+			<name>Always on my mind</name>
+			<year>1987</year>
+			<genre>dance/electronic</genre>
+			<album-track>11</album-track>
+			<track-info>
+				<length>00:03:55</length>
+				<kodek>MPEG</kodek>
+				<bitrate>133</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>19.1.2021 15:00:45</last-modified>
+			</track-info>
+			<rating stars="5"/>
+		</song>
+		<song id="song8" artist-ref="artist3" album-ref="album4">
+			<name>It's a sin</name>
+			<year>1987</year>
+			<genre>dance/electronic</genre>
+			<album-track>7</album-track>
+			<track-info>
+				<length>00:03:38</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>19.1.2021 15:12:40</last-modified>
+			</track-info>
+			<rating stars="5"/>
+		</song>
+		<song id="song9" artist-ref="artist3">
+			<name>Go west</name>
+			<year>1993</year>
+			<genre>dance/electronic</genre>
+			<track-info>
+				<length>00:03:59</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>19.1.2021 15:13:50</last-modified>
+			</track-info>
+			<rating stars="5"/>
+		</song>
+		<song id="song10" artist-ref="artist5">
+			<name>Never gonna give you up</name>
+			<year>1987</year>
+			<genre>soul</genre>
+			<track-info>
+				<length>00:02:55</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>4.2.2020 12:56:16</last-modified>
+			</track-info>
+			<rating stars="3"/>
+		</song>
+		<song id="song11" artist-ref="artist7" album-ref="album6">
+			<name>Semi-Automatic</name>
+			<year>2013</year>
+			<genre>electropop</genre>
+			<album-track>6</album-track>
+			<track-info>
+				<length>00:03:40</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>3.1.2020 12:53:33</last-modified>
+			</track-info>
+			<rating stars="5"/>
+		</song>
+		<song id="song12" artist-ref="artist7" album-ref="album6">
+			<name>Fake you out</name>
+			<year>2013</year>
+			<genre>electropop</genre>
+			<album-track>9</album-track>
+			<track-info>
+				<length>00:03:24</length>
+				<kodek>MPEG</kodek>
+				<bitrate>130</bitrate>
+				<frequency>48000</frequency>
+				<last-modified>3.1.2020 12:53:33</last-modified>
+			</track-info>
+			<rating stars="5"/>
+			<lyrics>
+				<![CDATA[ 
+				I want to drive away<br/>
+				In the night, headlights call my name<br/>
+				I, I'll never be, be what you see inside<br/>
+				You say I'm not alone, but I am petrified<br/>
+				You say that you are close, is close the closest star?<br/>
+				You just feel twice as far, you just feel twice as far<br/>
+				And I'll fall<br/>
+				And I'll break<br/>
+				And I'll fake<br/>
+				All I wanna<br/>
+				And I'll fall down<br/>
+				And I'll break down<br/>
+				And I'll fake you out<br/>
+				All I wanna<br/>
+				I'm so afraid<br/>
+				Of what you have to say<br/>
+				'Cause I am quiet now<br/>
+				And silence gives you space<br/>
+				I'll never be, be what you see inside<br/>
+				You say I'm not alone, but I am petrified<br/>
+				You say that you are close, is close the closest star?<br/>
+				You just feel twice as far, you just feel twice as far<br/>
+				And I'll fall<br/>
+				And I'll break<br/>
+				And I'll fake<br/>
+				All I wanna<br/>
+				And I'll fall down<br/>
+				And I'll break down<br/>
+				And I'll fake you out<br/>
+				All I wanna<br/>
+				It's the same game today as it always is<br/>
+				I don't give these places fake my name explaining this<br/>
+				And the wrists of my mind have the bleeding lines<br/>
+				That remind me of all the times<br/>
+				I have committed<br/>
+				Dirty dirty crimes that are perfectly form-fitted<br/>
+				To what I've done and what I'm doing<br/>
+				I'm brewing and losing and spewing infusing<br/>
+				And believe me that's what all the kids are doing<br/>
+				What kids are doing are killing themselves<br/>
+				They feel they have no control of their prisoner's cell<br/>
+				And if you're one of them then you're one of me<br/>
+				And you would do almost anything just to feel free<br/>
+				Am I right, of course I am<br/>
+				Convince me otherwise would take all night<br/>
+				Before you walk away, there's one more thing I want to say<br/>
+				Our brains are sick but that's okay<br/>
+				I'll fake you out<br/>
+				I'll fake you out<br/>
+				And I'll break down<br/>
+				I'll fake you out<br/>
+				And I'll fall<br/>
+				And I'll break<br/>
+				And I'll fake<br/>
+				All I wanna<br/>
+				I'll fake you out<br/>
+				I'll fake you out<br/>
+				I'll fake you out<br/>
+				And I'll break down<br/>
+				I'll fake you out<br/>
+				I'll fake you out<br/>
+				I'll fake you out<br/>
+				And I'll break down<br/>
+				All I wanna<br/>
+				Yeah, and I'll fall down<br/>
+				And I'll break down<br/>
+				And I'll fake you out<br/>
+				All I wanna<br/>
+				Yeah, and I'll fall down<br/>
+				And I'll break down<br/>
+				And I'll fake you out<br/>
+				All I wanna<br/>
+				I'm so afraid<br/>
+				Of what you have to say<br/>
+				'Cause I am quiet now<br/>
+				And silence gives you space<br/>
+				]]>
+			</lyrics>
+		</song>
+	</songs>
+</music-library>
