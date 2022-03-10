@@ -1,0 +1,285 @@
+/*---------------------------------------------
+ main components
+---------------------------------------------*/
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, footer {
+    padding: 10px 2%;
+}
+
+header i {
+    color: var(--color-light-text);
+    margin-right: 5px;
+}
+
+header a, footer a, nav a {
+    color: var(--color-light-text);
+}
+
+nav[role="navigation"] a {
+    color: var(--color-dark-text);
+}
+
+.topbar, nav, .footer-info, .copyright {
+    padding: 10px 0;
+}
+
+.topbar #search {
+    background-color: var(--color-light-background);
+    color: var(--color-dark-text);
+}
+.topbar #search::placeholder {
+    color: var(--color-dark-background);
+}
+
+.filters input {
+    width: 110px;
+}
+
+@media only screen and (max-width: 500px) {
+    .attributes li input, .attributes li{
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+}
+
+nav {
+    margin:0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/*---------------------------------------------
+ images
+---------------------------------------------*/
+
+img {
+    width: 20px;
+}
+
+img.item-icon, img.topbar-icon {
+	width: 20px;
+}
+
+img.thumbnail {
+	max-width: 150px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.banner > img {
+    width: 100%;
+}
+
+.main-img img {
+    width: 250px;
+}
+
+.small-illustrations img {
+    width: 100px;
+}
+
+.product-images img {
+    width: 100px;
+}
+
+.cart-item img {
+    max-height: 150px;
+}
+
+.cart-item-summary img {
+    max-height: 120px;
+}
+
+
+/*---------------------------------------------
+ items
+---------------------------------------------*/
+
+span.author {
+    display: block;
+}
+
+.main-info-text .btn {
+    margin-left: 10px;
+}
+
+.cart-item > h3 {
+    display: inline-block;
+}
+
+.cart-item input {
+    width: 70px;
+}
+
+.cart-header ul {
+    margin: 0;
+    line-height: 40px;
+}
+
+@media only screen and (min-width: 501px) {
+    .cart-header li:not(:last-of-type) .name::after {
+        content: '>';
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cart-header li:not([class*="active"]) {
+        display: none;
+    }
+    .cart-header .order::after {
+        content: '/5';
+    }
+}
+
+.cart-header .order {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+.cart-header li.active .order {
+    background-color: var(--color-dark-background);
+    color: white;
+}
+
+.cart-header .name {
+    margin-left: 10px;
+}
+
+
+
+.cart button {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-item i {
+    margin-left: 10px;
+}
+.cart-item i:hover{
+    cursor: pointer;
+}
+
+form.payment-methods {
+    max-width: 600px;
+}
+
+form.cart-summary-content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.proceed button {
+    display: block;
+}
+
+/*---------------------------------------------
+ admin
+---------------------------------------------*/
+
+.admin .input-group {
+	width: 400px;
+}
+
+.admin-results .btn {
+	margin-top: 10px;
+}
+
+nav.admin {
+    margin-right: 20px;
+}
+
+/*---------------------------------------------
+ others
+---------------------------------------------*/
+
+.info li {
+    display: block;
+}
+
+.info li dt, .info li dd {
+    display: inline;
+}
+
+.main-info .author {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.main-info .price {
+    font-size: 1.5rem;
+}
+
+.main-info-text input {
+    width: 75px;
+}
+
+.filters button {
+    margin: 5px 0;
+}
+
+.item {
+    position: relative;
+}
+
+.item a {
+    color: var(--color-dark-text);
+}
+
+.item a:hover {
+    color: var(--color-dark-text);
+    text-decoration: underline;
+}
+
+section.main-img, section.small-illustrations {
+	border: 1px dashed black;
+	border-radius: 3px;
+}
+
+section.small-illustrations {
+	min-height: 100px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    header .login-cart span, header .navbar-brand span{
+        display: none;
+        visibility: hidden;
+    }
+    header .search-bar {
+        width: 270px;
+    }
+}
+
+.thumbnail-container {
+    height: 220px;
+}
+
+.main-info form {
+    display: inline-block;
+}
+
+.main-info input {
+    display: block;
+}
+
+textarea {
+    height: 150px;
+}
+

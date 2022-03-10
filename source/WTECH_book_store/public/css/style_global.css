@@ -1,0 +1,130 @@
+/*---------------------------------------------
+ variables
+---------------------------------------------*/
+
+:root {
+	--color-light-background: rgb(235, 235, 235);
+	--color-light-text: rgb(235, 235, 235);
+	--color-dark-background: #610e2e;
+	--color-dark-text: rgb(32, 33, 36);
+	--color-highlight: #1597BB;
+	--color-highlight-background: #4A1C40;
+	
+	--colorx: #8FD6E1;
+	--colorxx: #150E56;
+	--colorxx: ;
+
+	--font-family-main: "Work Sans", sans-serif;
+	--font-family-secondary: 'Roboto Slab', serif;
+}
+
+
+
+/*---------------------------------------------
+ resetting and default values
+---------------------------------------------*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: var(--font-family-main);
+}
+
+
+/*---------------------------------------------
+ main elements
+---------------------------------------------*/
+html {
+	background: var(--color-light-background);
+	color: var(--color-dark-text);
+	/*line-height: 1.4;*/
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background: var(--color-light-background);
+}
+
+main {
+	background: var(--color-light-background);
+	flex-grow: 1;
+}
+
+header, footer {
+	background-color: var(--color-dark-background);
+	color: var(--color-light-background);
+}
+
+/*---------------------------------------------
+ headings
+---------------------------------------------*/
+
+h1 {
+	padding: 25px 0 20px 0;
+	font-weight: 900;
+	text-align: center;
+}
+h2 {
+	padding: 25px 0 15px 0;
+	font-weight: 700;
+}
+h3 {
+	padding: 10px 0 0 0;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+h4 {
+	padding: 5px 0 0 0;
+}
+h1, h2, h3, h4 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/*---------------------------------------------
+ paragraphs
+---------------------------------------------*/
+p {
+	font-family: var(--font-family-secondary);
+	padding: 10px 0 20px 0;
+	max-width: 800px;
+}
+
+
+/*---------------------------------------------
+ links
+---------------------------------------------*/
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: var(--color-highlight);
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--color-highlight);
+	color: var(--color-highlight);
+}
+
+
+/*---------------------------------------------
+ lists
+---------------------------------------------*/
+
+ul, ol {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+li {
+	display: inline-block;
+}

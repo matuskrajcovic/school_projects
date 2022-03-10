@@ -1,0 +1,21 @@
+{
+  "name": "vavjs_project2",
+  "version": "1.0.0",
+  "description": "Second project for VAVJS course in 2021",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Matúš Krajčovič",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "formidable": "^2.0.1",
+    "fs": "0.0.1-security",
+    "url-parse": "^1.5.3",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.3"
+  }
+}
