@@ -8,4 +8,4 @@
 | [Clustering](/source/UI_clustering/)| 4 clustering algoithms implemented and compared in C++. |
 | [Evolution algorithms](/source/UI_evolution_algorithms/) | Genetic algorithms and simulated annealing implemented and tested in C++. |
 | [Space search](/source/UI_space_search/) | Breadth and depth first space search algorithms on a simple car game, implemented and tested in C++. |
-| [Django API ednpoint](/source/DBS_database/) | Simple API endpoint in Django operating with postgresql database. |
+| [Django API endpoint](/source/DBS_database/) | Simple API endpoint in Django operating with postgresql database. |
